@@ -1,0 +1,35 @@
+name: Generate Calendar
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # Every day at 00:00 UTC
+  workflow_dispatch:        # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install croniter
+
+      - name: Generate calendar
+        run: python scripts/generate.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "openclaw-bot"
+          git config user.email "bot@openclaw.ai"
+          git add docs/index.html
+          git diff --cached --quiet || git commit -m "chore: update calendar $(date -u +%Y-%m-%d)"
+          git push

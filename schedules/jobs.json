@@ -1,0 +1,34 @@
+[
+  {
+    "name": "daily-review",
+    "description": "記憶整理，存到 memory/daily/",
+    "cron": "0 3 * * *",
+    "tz": "UTC",
+    "color": "#4A90D9",
+    "tag": "openclaw"
+  },
+  {
+    "name": "stock-forum-daily",
+    "description": "抓新應材 (4749) CMoney 討論區重點 → Telegram",
+    "cron": "0 9 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#27AE60",
+    "tag": "openclaw"
+  },
+  {
+    "name": "weekly-review",
+    "description": "深度記憶整理，更新 MEMORY.md",
+    "cron": "0 3 * * 0",
+    "tz": "UTC",
+    "color": "#8E44AD",
+    "tag": "openclaw"
+  },
+  {
+    "name": "generate-calendar",
+    "description": "自動產生本週曆頁面並 push 到 GitHub Pages",
+    "cron": "0 0 * * *",
+    "tz": "UTC",
+    "color": "#E67E22",
+    "tag": "github-actions"
+  }
+]
