@@ -62,5 +62,13 @@
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
     "tag": "openclaw"
+  },
+  {
+    "name": "jina-balance-reminder",
+    "description": "每月提醒查看 Jina API key 餘額",
+    "cron": "0 10 1 * *",
+    "tz": "Asia/Taipei",
+    "color": "#E74C3C",
+    "tag": "openclaw"
   }
 ]
