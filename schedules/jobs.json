@@ -8,11 +8,35 @@
     "tag": "github-actions"
   },
   {
+    "name": "sync-calendar",
+    "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
+    "cron": "30 0 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
     "name": "daily-review",
     "description": "",
     "cron": "0 3 * * *",
     "tz": "UTC",
     "color": "#4A90D9",
+    "tag": "openclaw"
+  },
+  {
+    "name": "microsync",
+    "description": "自動大腦廣播：每 3 小時同步 MEMORY.md 到各個 Agent 的工作區",
+    "cron": "0 */3 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "lancedb-backup-daily",
+    "description": "每天備份 LanceDB 記憶到 GitHub",
+    "cron": "30 3 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
@@ -29,6 +53,14 @@
     "cron": "0 3 * * 0",
     "tz": "UTC",
     "color": "#8E44AD",
+    "tag": "openclaw"
+  },
+  {
+    "name": "memory-lancedb-pro-update-check",
+    "description": "每週檢查 memory-lancedb-pro 是否有新版本",
+    "cron": "0 10 * * 1",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
     "tag": "openclaw"
   }
 ]
