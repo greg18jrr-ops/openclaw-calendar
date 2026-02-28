@@ -16,6 +16,14 @@
     "tag": "openclaw"
   },
   {
+    "name": "weekly-review",
+    "description": "",
+    "cron": "0 3 * * 0",
+    "tz": "UTC",
+    "color": "#8E44AD",
+    "tag": "openclaw"
+  },
+  {
     "name": "daily-review",
     "description": "",
     "cron": "0 3 * * *",
@@ -48,11 +56,11 @@
     "tag": "openclaw"
   },
   {
-    "name": "weekly-review",
-    "description": "",
-    "cron": "0 3 * * 0",
-    "tz": "UTC",
-    "color": "#8E44AD",
+    "name": "jina-balance-reminder",
+    "description": "每月提醒查看 Jina API key 餘額",
+    "cron": "0 10 1 * *",
+    "tz": "Asia/Taipei",
+    "color": "#E74C3C",
     "tag": "openclaw"
   },
   {
@@ -61,14 +69,6 @@
     "cron": "0 10 * * 1",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
-    "tag": "openclaw"
-  },
-  {
-    "name": "jina-balance-reminder",
-    "description": "每月提醒查看 Jina API key 餘額",
-    "cron": "0 10 1 * *",
-    "tz": "Asia/Taipei",
-    "color": "#E74C3C",
     "tag": "openclaw"
   }
 ]
