@@ -70,5 +70,13 @@
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
     "tag": "openclaw"
+  },
+  {
+    "name": "win4r-github-watch",
+    "description": "每日掃描 win4r GitHub 活動，有更新就 TG 通知",
+    "cron": "0 9 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#2EA44F",
+    "tag": "openclaw"
   }
 ]
