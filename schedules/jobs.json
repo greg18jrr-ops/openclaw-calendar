@@ -64,14 +64,6 @@
     "tag": "openclaw"
   },
   {
-    "name": "win4r-github-watch",
-    "description": "每日掃描 win4r GitHub 活動，有更新就 TG 通知",
-    "cron": "0 9 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#2EA44F",
-    "tag": "openclaw"
-  },
-  {
     "name": "jina-balance-reminder",
     "description": "每月提醒查看 Jina API key 餘額",
     "cron": "0 10 1 * *",
