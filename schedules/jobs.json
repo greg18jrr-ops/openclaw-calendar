@@ -70,5 +70,29 @@
     "tz": "Asia/Taipei",
     "color": "#E74C3C",
     "tag": "openclaw"
+  },
+  {
+    "name": "sync-workspace-template",
+    "description": "每天凌晨 1 點將三劍客工作區設定檔備份到 GitHub Template Repo",
+    "cron": "0 1 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#16A085",
+    "tag": "openclaw"
+  },
+  {
+    "name": "peter-memory-distillation",
+    "description": "每週日凌晨 3 點由小飛俠 Peter 執行記憶蒸餾，整理共用 LanceDB",
+    "cron": "0 3 * * 0",
+    "tz": "Asia/Taipei",
+    "color": "#8E44AD",
+    "tag": "peter"
+  },
+  {
+    "name": "win4r-github-watch",
+    "description": "監控 GitHub 相關動態",
+    "cron": "0 9 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#2ECC71",
+    "tag": "openclaw"
   }
 ]
