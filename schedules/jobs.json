@@ -8,30 +8,6 @@
     "tag": "github-actions"
   },
   {
-    "name": "stock-forum-daily",
-    "description": "每日早上 9 點抓取新應材 (4749) CMoney 討論區重點，傳送至 Telegram",
-    "cron": "0 23 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#27AE60",
-    "tag": "openclaw"
-  },
-  {
-    "name": "youtube-monitor",
-    "description": "",
-    "cron": "",
-    "tz": "UTC",
-    "color": "#58A6FF",
-    "tag": "openclaw"
-  },
-  {
-    "name": "microsync",
-    "description": "自動大腦廣播：每 3 小時同步 MEMORY.md 到各個 Agent 的工作區",
-    "cron": "0 */3 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#58A6FF",
-    "tag": "openclaw"
-  },
-  {
     "name": "sync-calendar",
     "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
     "cron": "30 0 * * *",
@@ -56,6 +32,14 @@
     "tag": "openclaw"
   },
   {
+    "name": "microsync",
+    "description": "自動大腦廣播：每 3 小時同步 MEMORY.md 到各個 Agent 的工作區",
+    "cron": "0 */3 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
     "name": "lancedb-backup-daily",
     "description": "每天備份 LanceDB 記憶到 GitHub",
     "cron": "30 3 * * *",
@@ -77,6 +61,22 @@
     "cron": "30 8 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "youtube-monitor",
+    "description": "",
+    "cron": "",
+    "tz": "UTC",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "stock-forum-daily",
+    "description": "每日早上 9 點抓取新應材 (4749) CMoney 討論區重點，傳送至 Telegram",
+    "cron": "0 23 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#27AE60",
     "tag": "openclaw"
   },
   {
