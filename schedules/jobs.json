@@ -8,19 +8,19 @@
     "tag": "github-actions"
   },
   {
-    "name": "sync-calendar",
-    "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
-    "cron": "30 0 * * *",
+    "name": "morning-brief",
+    "description": "",
+    "cron": "30 8 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
-    "name": "daily-review",
+    "name": "4749價格監控",
     "description": "",
-    "cron": "0 3 * * *",
-    "tz": "UTC",
-    "color": "#4A90D9",
+    "cron": "0,10,20,30,40,50 9-13 * * 1-5",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
@@ -32,10 +32,10 @@
     "tag": "openclaw"
   },
   {
-    "name": "lancedb-backup-daily",
-    "description": "每天備份 LanceDB 記憶到 GitHub",
-    "cron": "30 3 * * *",
-    "tz": "Asia/Taipei",
+    "name": "youtube-monitor",
+    "description": "",
+    "cron": "",
+    "tz": "UTC",
     "color": "#58A6FF",
     "tag": "openclaw"
   },
@@ -48,6 +48,54 @@
     "tag": "openclaw"
   },
   {
+    "name": "sync-calendar",
+    "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
+    "cron": "30 0 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "sync-workspace-template",
+    "description": "",
+    "cron": "0 1 * * *",
+    "tz": "UTC",
+    "color": "#16A085",
+    "tag": "openclaw"
+  },
+  {
+    "name": "daily-review",
+    "description": "",
+    "cron": "0 3 * * *",
+    "tz": "UTC",
+    "color": "#4A90D9",
+    "tag": "openclaw"
+  },
+  {
+    "name": "lancedb-backup-daily",
+    "description": "每天備份 LanceDB 記憶到 GitHub",
+    "cron": "30 3 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "房產每日快報",
+    "description": "",
+    "cron": "0 8 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
+    "name": "peter-memory-distillation",
+    "description": "",
+    "cron": "0 3 * * 0",
+    "tz": "UTC",
+    "color": "#8E44AD",
+    "tag": "openclaw"
+  },
+  {
     "name": "weekly-review",
     "description": "",
     "cron": "0 3 * * 0",
@@ -56,8 +104,8 @@
     "tag": "openclaw"
   },
   {
-    "name": "memory-lancedb-pro-update-check",
-    "description": "每週檢查 memory-lancedb-pro 是否有新版本",
+    "name": "版本檢查",
+    "description": "每週檢查 memory-lancedb-pro 和 MiniMax 模型更新",
     "cron": "0 10 * * 1",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -69,30 +117,6 @@
     "cron": "0 10 1 * *",
     "tz": "Asia/Taipei",
     "color": "#E74C3C",
-    "tag": "openclaw"
-  },
-  {
-    "name": "sync-workspace-template",
-    "description": "每天凌晨 1 點將三劍客工作區設定檔備份到 GitHub Template Repo",
-    "cron": "0 1 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#16A085",
-    "tag": "openclaw"
-  },
-  {
-    "name": "peter-memory-distillation",
-    "description": "每週日凌晨 3 點由小飛俠 Peter 執行記憶蒸餾，整理共用 LanceDB",
-    "cron": "0 3 * * 0",
-    "tz": "Asia/Taipei",
-    "color": "#8E44AD",
-    "tag": "peter"
-  },
-  {
-    "name": "win4r-github-watch",
-    "description": "監控 GitHub 相關動態",
-    "cron": "0 9 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#2ECC71",
     "tag": "openclaw"
   }
 ]
