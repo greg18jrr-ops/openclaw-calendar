@@ -64,6 +64,14 @@
     "tag": "openclaw"
   },
   {
+    "name": "github-trending-daily",
+    "description": "每日搜尋 GitHub 上 OpenClaw、Claude Code、Gemini 相關熱門 repo 並報告",
+    "cron": "0 9 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
     "name": "youtube-monitor",
     "description": "",
     "cron": "",
