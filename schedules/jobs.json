@@ -56,6 +56,14 @@
     "tag": "openclaw"
   },
   {
+    "name": "flight-monitor",
+    "description": "",
+    "cron": "0 8 * * *",
+    "tz": "Asia/Taipei",
+    "color": "#58A6FF",
+    "tag": "openclaw"
+  },
+  {
     "name": "morning-brief",
     "description": "",
     "cron": "30 8 * * *",
