@@ -17,7 +17,7 @@
   },
   {
     "name": "sync-workspace-template",
-    "description": "",
+    "description": null,
     "cron": "0 1 * * *",
     "tz": "UTC",
     "color": "#58A6FF",
@@ -25,7 +25,7 @@
   },
   {
     "name": "cron-watchdog",
-    "description": "",
+    "description": null,
     "cron": "0 */2 * * *",
     "tz": "UTC",
     "color": "#58A6FF",
@@ -49,7 +49,7 @@
   },
   {
     "name": "notebooklm-vault-sync",
-    "description": "",
+    "description": null,
     "cron": "30 22 * * 0",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -57,7 +57,7 @@
   },
   {
     "name": "方案C提醒：移除少用Skills",
-    "description": "",
+    "description": null,
     "cron": "0 10 15 3 *",
     "tz": "UTC",
     "color": "#58A6FF",
