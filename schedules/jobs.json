@@ -8,16 +8,8 @@
     "tag": "github-actions"
   },
   {
-    "name": "sync-calendar",
-    "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
-    "cron": "30 0 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#58A6FF",
-    "tag": "openclaw"
-  },
-  {
     "name": "sync-workspace-template",
-    "description": null,
+    "description": "每日同步 workspace 模板",
     "cron": "0 1 * * *",
     "tz": "UTC",
     "color": "#58A6FF",
@@ -25,7 +17,7 @@
   },
   {
     "name": "cron-watchdog",
-    "description": null,
+    "description": "每 2 小時監控 cron 任務健康狀態",
     "cron": "0 */2 * * *",
     "tz": "UTC",
     "color": "#58A6FF",
@@ -33,7 +25,7 @@
   },
   {
     "name": "lancedb-backup-daily",
-    "description": "每天備份 LanceDB + 同步 lobster-brain & openclaw-infra 到 GitHub",
+    "description": "每日備份 LanceDB",
     "cron": "30 2 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -41,7 +33,7 @@
   },
   {
     "name": "microsync",
-    "description": "自動大腦廣播：每 3 小時同步 MEMORY.md 到各個 Agent 的工作區",
+    "description": "每 3 小時微同步",
     "cron": "0 */3 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -49,15 +41,15 @@
   },
   {
     "name": "notebooklm-vault-sync",
-    "description": null,
+    "description": "每週日 22:30 同步 NotebookLM vault",
     "cron": "30 22 * * 0",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
-    "name": "方案C提醒：移除少用Skills",
-    "description": null,
+    "name": "方案C提醒-移除少用Skills",
+    "description": "每年 3/15 提醒清理少用 skills",
     "cron": "0 10 15 3 *",
     "tz": "UTC",
     "color": "#58A6FF",
