@@ -1,10 +1,1 @@
-[
-  {"name":"generate-calendar","description":"自動產生本週曆頁面並 push 到 GitHub Pages","cron":"0 0 * * *","tz":"UTC","color":"#E67E22","tag":"github-actions"},
-  {"name":"sync-calendar","description":"同步 OpenClaw cron jobs 至曆頁","cron":"0 30 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},
-  {"name":"sync-workspace-template","description":"同步 workspace 模板","cron":"0 1 * * *","tz":"UTC","color":"#58A6FF","tag":"openclaw"},
-  {"name":"cron-watchdog","description":"監控 OpenClaw cron jobs 運行狀態","cron":"0 */2 * * *","tz":"UTC","color":"#58A6FF","tag":"openclaw"},
-  {"name":"lancedb-backup-daily","description":"每日備份 LanceDB","cron":"30 2 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},
-  {"name":"microsync","description":"定時同步微服務資料","cron":"0 */3 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},
-  {"name":"notebooklm-vault-sync","description":"每週同步 AI 系統筆記至 NotebookLM","cron":"30 22 * * 0","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},
-  {"name":"方案C提醒：移除少用Skills","description":"每年提醒清理閒置 Skills","cron":"0 10 15 3 *","tz":"UTC","color":"#58A6FF","tag":"openclaw"}
-]
+[{"name":"generate-calendar","description":"自動產生本週曆頁面並 push 到 GitHub Pages","cron":"0 0 * * *","tz":"UTC","color":"#E67E22","tag":"github-actions"},{"name":"sync-calendar","description":"同步 OpenClaw cron jobs 至曆頁","cron":"30 0 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},{"name":"sync-workspace-template","description":"同步 workspace template","cron":"0 1 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},{"name":"cron-watchdog","description":"監控 cron jobs 執行狀態","cron":"0 */2 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},{"name":"lancedb-backup-daily","description":"每日備份 LanceDB","cron":"30 2 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},{"name":"notebooklm-vault-sync","description":"每週同步 AI 系統筆記至 NotebookLM","cron":"30 22 * * 0","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"},{"name":"方案C提醒：移除少用Skills","description":"方案C提醒：移除少用Skills","cron":"0 10 15 3 *","tz":"UTC","color":"#58A6FF","tag":"openclaw"}]
