@@ -9,7 +9,7 @@
   },
   {
     "name": "sync-calendar",
-    "description": "同步 OpenClaw cron jobs 到曆頁",
+    "description": "定時同步 OpenClaw cron jobs 到曆頁",
     "cron": "30 0 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -17,23 +17,23 @@
   },
   {
     "name": "sync-workspace-template",
-    "description": "同步 workspace template",
+    "description": "定時同步 workspace 模板",
     "cron": "0 1 * * *",
-    "tz": "Asia/Taipei",
+    "tz": "UTC",
     "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
     "name": "cron-watchdog",
-    "description": "監控 cron jobs 健康狀態",
+    "description": "每兩小時檢查 cron jobs 健康狀態",
     "cron": "0 */2 * * *",
-    "tz": "Asia/Taipei",
+    "tz": "UTC",
     "color": "#58A6FF",
     "tag": "openclaw"
   },
   {
     "name": "lancedb-backup-daily",
-    "description": "每日備份 LanceDB",
+    "description": "每日凌晨 LanceDB 備份",
     "cron": "30 2 * * *",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -41,7 +41,7 @@
   },
   {
     "name": "notebooklm-vault-sync",
-    "description": "每週同步 NotebookLM vault",
+    "description": "每週日同步 AI 系統筆記到 NotebookLM",
     "cron": "30 22 * * 0",
     "tz": "Asia/Taipei",
     "color": "#58A6FF",
@@ -49,10 +49,10 @@
   },
   {
     "name": "方案C提醒：移除少用Skills",
-    "description": "每年三月十五日提醒檢視少用 Skills",
+    "description": "每年三月十五日提醒檢視閒置 Skills",
     "cron": "0 10 15 3 *",
     "tz": "UTC",
-    "color": "#F44036",
+    "color": "#58A6FF",
     "tag": "openclaw"
   }
 ]
