@@ -1,18 +1,1 @@
-[
-  {
-    "name": "generate-calendar",
-    "description": "自動產生本週曆頁面並 push 到 GitHub Pages",
-    "cron": "0 0 * * *",
-    "tz": "UTC",
-    "color": "#E67E22",
-    "tag": "github-actions"
-  },
-  {
-    "name": "sync-calendar",
-    "description": "自動同步 OpenClaw cron jobs 到 GitHub calendar",
-    "cron": "30 0 * * *",
-    "tz": "Asia/Taipei",
-    "color": "#58A6FF",
-    "tag": "openclaw"
-  }
-]
+[{"name":"generate-calendar","description":"自動產生本週曆頁面並 push 到 GitHub Pages","cron":"0 0 * * *","tz":"UTC","color":"#E67E22","tag":"github-actions"},{"name":"sync-calendar","description":"自動同步 OpenClaw cron jobs 到 GitHub calendar","cron":"30 0 * * *","tz":"Asia/Taipei","color":"#58A6FF","tag":"openclaw"}]
